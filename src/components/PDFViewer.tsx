@@ -8,11 +8,16 @@ const PDFViewer: React.FC = () => {
   if (!filename) return <p>No file chosen.</p>;
 
   return (
-    <object
-      data={`/syllabi/${filename}.pdf`}
-      type="application/pdf"
-      className="w-full h-screen"
-    />
+<div>
+      <h2>Viewing: {filename}</h2>
+      <iframe
+        src={`/syllabi/${filename}`}
+        width="100%"
+        height="600px"
+        title="PDF Viewer"
+        style={{ border: 'none' }}
+      ></iframe>
+    </div>
   );
 };
 
