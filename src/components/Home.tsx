@@ -8,7 +8,6 @@ import contact1Image from "../assets/contact1.png";
 import contact2Image from "../assets/contact2.png";
 import Navbar from '../components/Navbar';
 
-
 export default function Home() {
   return (
     <><header className="w-full bg-blue-600 text-white py-4">
@@ -57,8 +56,6 @@ View My Resume            </Link>
             </Link>
           </div>
 
-
-
           <div className="bg-white rounded-lg shadow-md p-6">
             <img
               src={contact1Image}
@@ -79,7 +76,6 @@ View My Resume            </Link>
               View Project
             </Link>
           </div>
-
 
         </div>
       </div>
