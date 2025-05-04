@@ -1,8 +1,4 @@
 import { Link } from "react-router-dom";
-import { Routes, Route } from 'react-router-dom';
-import Resume from '../components/Resume.tsx';
-import PDFViewer from '../components/PDFViewer';
-import CIS_Syllabi from '../components/CIS_Syllabi';
 import Footer from '../components/Footer';
 
 import profilePicture from "../assets/picture.jpg"; 

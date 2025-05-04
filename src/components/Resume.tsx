@@ -1,6 +1,4 @@
 import Navbar from "./Navbar";
-import PDFViewer from "./PDFViewer";
-import { Link } from "react-router-dom";
 
 
 export default function Resume() {

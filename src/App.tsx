@@ -1,5 +1,5 @@
 import Home from "./components/Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as  Routes, Route } from "react-router-dom";
 import Resume from "./components/Resume";
 import CIS_Syllabi from "./components/CIS_Syllabi";
 import PDFViewer from "./components/PDFViewer";
