@@ -13,7 +13,7 @@ const PDFViewer: React.FC = () => {
       <iframe
         src={`/syllabi/${filename}`}
         width="100%"
-        height="600px"
+        height="100%"
         title="PDF Viewer"
         style={{ border: 'none' }}
       ></iframe>
